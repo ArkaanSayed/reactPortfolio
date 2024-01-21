@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import AboutMe from './components/AboutMe/AboutMe';
+import MyExpertise from './components/MyExpertise/MyExpertise';
+import MyExperience from './components/MyExperience/MyExperience';
+import Parallax from './components/Parallax/Parallax';
 import './App.css';
 
-function App() {
+export default function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Parallax />
+      <AboutMe />
+      <MyExpertise />
     </div>
   );
 }
 
-export default App;
+
+
+// <MyExperience />
+
+
+
+
+
+

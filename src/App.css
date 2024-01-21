@@ -1,38 +1,152 @@
-.App {
-  text-align: center;
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f3f4f5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+    --primaryColor: #282a57;
+    --secondaryColor: #e4e4e4;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.parallax-outer {
+    overflow: hidden;
+    font-family: 'DM Serif Display', serif;
 }
 
-.App-link {
-  color: #61dafb;
+.parallax {
+    height: 100vh;
+    width: 100%;
+    position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.parallax img {
+    position: absolute;
+}
+
+
+
+
+.sun {
+    top: 40%;
+    left: 60%;
+    transform: translate(-100%, -50%);
+
+}
+
+.circle {
+    position: relative;
+    border-radius: 100%;
+    width: 20rem;
+    height: 20rem;
+    background: linear-gradient(40deg, #FF0080, #FF8C00 70%);
+}
+
+.stars {
+    top: -550px;
+    left: 0;
+    width: 100%;
+}
+
+.wave {
+    position: absolute;
+    top: 80%;
+}
+
+
+
+.header {
+    position: absolute;
+    left: 68%;
+    bottom: 58%;
+}
+
+.header h1 {
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.intro-role {
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.intro {
+    width: 70%;
+    position: absolute;
+    left: 94%;
+    text-align: center;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 2.6px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+}
+
+.underLineText {
+    color: #FF1F51;
+}
+
+@media (max-width: 575px) {
+    .parallax {
+        height: 80vh;
+    }
+
+    .sun {
+        top: 140px;
+        left: 280px;
+        transform: translate(-100%, -50%);
+    }
+
+    .circle {
+        position: relative;
+        border-radius: 100%;
+        width: 16rem;
+        height: 16rem;
+        background: linear-gradient(40deg, #FF0080, #FF8C00 70%);
+    }
+
+    .header {
+        position: absolute;
+        left: 170px;
+        bottom: 370px;
+    }
+
+    .header h1 {
+        font-size: 32px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .intro-role {
+        letter-spacing: 2px;
+        font-size: 8px;
+        text-align: center;
+        margin-top: 14px;
+    }
+
+    .intro {
+        width: 100%;
+        position: absolute;
+        left: 930px;
+        bottom: 260px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 40px;
+        letter-spacing: 2.6px;
+        font-family: 'Comfortaa', sans-serif;
+        font-weight: bold;
+    }
+
 }

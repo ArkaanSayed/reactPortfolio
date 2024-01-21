@@ -1,0 +1,232 @@
+.MyExperience {
+    height: 80vh;
+    margin-bottom: 250px;
+    margin-left: 60px;
+    color: white;
+    position: relative;
+}
+
+
+
+.MyExperience-box {
+    margin-left: 40px;
+    padding-top: 80px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.MyExperience-box h1 {
+    font-size: 60px;
+
+}
+
+
+.Experience-Card {
+    padding-top: 60px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.Experience-Card h4 {
+    width: 16%;
+    /* padding-right: 30px; */
+    line-height: 24px;
+}
+
+.Experience-Card-Info p {
+    margin-top: 20px;
+    width: 600px;
+    /* text-align: justify; */
+    line-height: 28px;
+}
+
+.categories {
+    padding-top: 12px;
+    display: flex;
+    gap: 12px;
+}
+
+.categories span {
+    background: linear-gradient(#fff2, transparent);
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
+    padding: 10px 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 50em;
+}
+
+.Created-Socials {
+    position: absolute;
+    bottom: -24%;
+    right: 6%;
+}
+
+.Created-Socials h3 {
+    width: 350px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+
+/* Social links design */
+.card {
+    display: flex;
+    height: 70px;
+    width: 270px;
+    padding-top: 20px;
+    justify-content: center;
+    position: absolute;
+    right: 14%;
+    top: 70%;
+}
+
+.card svg {
+    position: absolute;
+    display: flex;
+    width: 40%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 0.25s;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.card .social-link1,
+.card .social-link2,
+.card .social-link3,
+.card .social-link4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.25s;
+    border-radius: 50px;
+}
+
+.card svg {
+    transform: scale(1);
+}
+
+.card .social-link1:hover {
+    background-color: #1a1e22;
+    animation: bounce_613 0.4s linear;
+}
+
+.card .social-link2:hover {
+    background-color: #0a66c2;
+    animation: bounce_613 0.4s linear;
+}
+
+.card .social-link3:hover {
+    background-color: #d62976;
+    animation: bounce_613 0.4s linear;
+}
+
+.card .social-link4:hover {
+    background-color: #1d4292;
+    animation: bounce_613 0.4s linear;
+}
+
+@keyframes bounce_613 {
+    40% {
+        transform: scale(1.4);
+    }
+
+    60% {
+        transform: scale(0.8);
+    }
+
+    80% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Bubbles over here */
+.bubble9 {
+    position: absolute;
+    right: 2.8%;
+    top: 126%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    background: linear-gradient(to left, #7e94bf, #9192ba);
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bubble9:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 5px;
+    left: 7px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #282a57;
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+.bubble9:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 25px;
+    left: 55px;
+    height: 20px;
+    width: 7px;
+    border-radius: 50%;
+    background: white;
+    overflow: hidden;
+}
+
+.bubble10 {
+    position: absolute;
+    left: 96%;
+    top: 138%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    background: linear-gradient(to left, #7e94bf, #9192ba);
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bubble10:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 5px;
+    left: 7px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #282a57;
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+.bubble10:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 20px;
+    left: 38px;
+    height: 12px;
+    width: 5px;
+    border-radius: 50%;
+    background: white;
+    overflow: hidden;
+}
