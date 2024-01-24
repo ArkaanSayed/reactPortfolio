@@ -264,8 +264,8 @@
     }
 
     .About-me-pic img {
-        width: 280px;
-        height: 280px;
+        width: 320px;
+        height: 320px;
         padding-left: 0px;
         padding-right: 36px;
         padding-top: 20px;
@@ -274,13 +274,13 @@
 
     /* Bubbles */
     .bubble {
-        right: 20px;
-        top: 570px;
+        right: 10px;
+        top: 520px;
     }
 
     .bubble2 {
         right: 20px;
-        top: 690px;
+        top: 630px;
     }
 
     .bubble3 {

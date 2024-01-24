@@ -40,15 +40,15 @@ export default function MyExpertise() {
                         <p className='para'>Dart, Python, JS, C++, Java</p>
                     </div>
                 </div>
-
+                <div class="bubble6"></div>
+                <div class="bubble7"></div>
+                <div class="bubble8"></div>
             </div>
         </div>
     );
 }
 
-// <div class="bubble6"></div>
-// <div class="bubble7"></div>
-// <div class="bubble8"></div>
+
 
 
 

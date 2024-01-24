@@ -237,7 +237,7 @@
 @media (max-width: 575px) {
 
     .MyExpertise {
-        height: 60vh;
+        height: 130vh;
         margin-left: 20px;
         padding-top: 0px;
         flex-direction: column;
@@ -295,12 +295,27 @@
         align-items: center;
     }
 
+    .bubble6 {
+        top: -10px;
+        left: 270px;
+    }
+
+    .bubble7 {
+        left: 277px;
+        top: 25px;
+    }
+
+    .bubble8 {
+        left: 277px;
+        top: 55px;
+    }
+
 }
 
 @media (max-width: 375px) {
 
     .MyExpertise {
-        height: 67vh;
+        height: 187vh;
     }
 
     .MyExpertise-box {
@@ -313,4 +328,5 @@
         padding-right: 6px;
         position: relative;
     }
+
 }

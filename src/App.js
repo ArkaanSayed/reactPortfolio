@@ -12,13 +12,16 @@ export default function App() {
       <Parallax />
       <AboutMe />
       <MyExpertise />
+      <MyExperience />
     </div>
   );
 }
 
 
 
-// <MyExperience />
+
+
+
 
 
 
