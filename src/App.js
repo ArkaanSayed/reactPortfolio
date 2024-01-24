@@ -13,6 +13,7 @@ export default function App() {
       <AboutMe />
       <MyExpertise />
       <MyExperience />
+
     </div>
   );
 }
