@@ -234,8 +234,8 @@
 
 @media (max-width: 575px) {
     .MyExperience {
-        height: 108vh;
-        margin-bottom: 250px;
+        height: 124vh;
+        margin-bottom: 0px;
         margin-left: 12px;
     }
 
@@ -274,15 +274,19 @@
         letter-spacing: 1px;
     }
 
+    .Created-Socials {
+        bottom: -10%;
+        right: 5%;
+    }
 
     .bubble9 {
-        right: 20px;
-        bottom: 120px;
+        display: none;
+        right: 4%;
+        top: 1248px;
     }
 
     .bubble10 {
-
-        left: 350px;
+        left: 85%;
         top: 1320px;
         bottom: 10px;
     }
@@ -290,8 +294,8 @@
 
 @media (max-width: 375px) {
     .MyExperience {
-        height: 134vh;
-        margin-bottom: 250px;
+        height: 114vh;
+        margin-bottom: 0px;
         margin-left: 12px;
         padding-top: 10px;
     }
@@ -310,8 +314,8 @@
     }
 
     .Created-Socials {
-        bottom: -23%;
-        right: -20px;
+        bottom: -18%;
+        right: 3%;
     }
 
     .Created-Socials h3 {
