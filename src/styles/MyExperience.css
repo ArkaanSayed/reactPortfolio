@@ -297,7 +297,7 @@
         height: 114vh;
         margin-bottom: 0px;
         margin-left: 12px;
-        padding-top: 10px;
+        padding-top: 0px;
     }
 
     .Experience-Card h4 {
@@ -314,8 +314,8 @@
     }
 
     .Created-Socials {
-        bottom: -18%;
-        right: 3%;
+        bottom: -45%;
+        right: 1%;
     }
 
     .Created-Socials h3 {
@@ -329,7 +329,7 @@
 
     .bubble9 {
         right: -20px;
-        bottom: 120px;
+        top: 20%;
     }
 
 }
