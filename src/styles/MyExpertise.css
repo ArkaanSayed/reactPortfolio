@@ -1,5 +1,5 @@
 .MyExpertise {
-    height: 68vh;
+    /* height: 68vh; */
     margin-left: 60px;
     display: flex;
     position: relative;
@@ -237,9 +237,9 @@
 @media (max-width: 575px) {
 
     .MyExpertise {
-        height: 140vh;
+        /* height: 140vh; */
         margin-left: 20px;
-        padding-top: 0px;
+        padding-top: 80px;
         flex-direction: column;
     }
 
@@ -276,13 +276,13 @@
         padding-right: 45px;
         padding-top: 80px;
         padding-bottom: 60px;
+
     }
 
     .MyExpertise-box2 h1 {
-        font-size: 30px;
+        font-size: 28px;
         line-height: 42px;
         text-align: center;
-
     }
 
     .container2 {
@@ -296,31 +296,31 @@
     }
 
     .bubble6 {
-        top: -10px;
-        left: 270px;
+        top: 70px;
+        left: 260px;
     }
 
     .bubble7 {
         left: 277px;
-        top: 25px;
+        top: 96px;
     }
 
     .bubble8 {
         left: 277px;
-        top: 55px;
+        top: 126px;
     }
 
 }
 
 @media (max-width: 375px) {
 
-    .MyExpertise {
+    /* .MyExpertise {
         height: 177vh;
-    }
+    } */
 
-    .MyExpertise-box {
-        padding-top: 160px;
-    }
+    /* .MyExpertise-box {
+        padding-top: 60px;
+    } */
 
     .container {
         padding-top: 60px;
@@ -330,18 +330,18 @@
     }
 
     .bubble6 {
-        top: 10%;
+        top: 70px;
         left: 270px;
     }
 
     .bubble7 {
         left: 277px;
-        top: 12%;
+        top: 7%;
     }
 
     .bubble8 {
         left: 277px;
-        top: 14%;
+        top: 9%;
     }
 
 }

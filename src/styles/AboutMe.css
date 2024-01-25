@@ -1,6 +1,6 @@
 .About-me {
-    height: 50vh;
-    margin-bottom: 200px;
+    /* height: 50vh; */
+    /* margin-bottom: 200px; */
     margin-left: 60px;
     color: white;
     display: flex;
@@ -44,7 +44,7 @@
 .bubble {
     position: absolute;
     right: 5%;
-    top: 108%;
+    top: 80%;
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -83,7 +83,7 @@
 .bubble2 {
     position: absolute;
     right: 3%;
-    top: 134%;
+    top: 95%;
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -122,7 +122,7 @@
 
 .bubble3 {
     position: absolute;
-    top: -8%;
+    top: 16%;
     left: -0.2%;
     height: 20px;
     width: 20px;
@@ -162,7 +162,7 @@
 .bubble4 {
     position: absolute;
     left: -1%;
-    top: 1%;
+    top: 21%;
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -201,7 +201,7 @@
 .bubble5 {
     position: absolute;
     left: -1.4%;
-    top: 12%;
+    top: 26%;
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -242,7 +242,7 @@
 @media (max-width: 575px) {
 
     .About-me {
-        height: 64vh;
+        /* height: 64vh; */
         margin-left: 2px;
         flex-direction: column;
     }
@@ -275,11 +275,13 @@
 
     /* Bubbles */
     .bubble {
+        display: none;
         right: 10px;
         top: 520px;
     }
 
     .bubble2 {
+        display: none;
         right: 20px;
         top: 630px;
     }

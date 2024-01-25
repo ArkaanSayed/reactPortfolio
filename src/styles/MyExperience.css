@@ -1,6 +1,4 @@
 .MyExperience {
-    height: 80vh;
-    /* margin-bottom: 250px; */
     margin-left: 60px;
     color: white;
     position: relative;
@@ -199,7 +197,7 @@
 .bubble10 {
     position: absolute;
     left: 96%;
-    top: 138%;
+    top: 135%;
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -237,9 +235,8 @@
 
 @media (max-width: 575px) {
     .MyExperience {
-        height: 108vh;
-        padding-bottom: 120px;
-        margin-bottom: 0px;
+        /* height: 108vh; */
+        padding-bottom: 140px;
         margin-left: 12px;
     }
 
@@ -276,9 +273,8 @@
     }
 
     .Created-Socials {
-        bottom: -18%;
-        right: 5%;
-
+        bottom: 0;
+        right: 1%;
     }
 
 
@@ -303,8 +299,7 @@
 
 @media (max-width: 375px) {
     .MyExperience {
-        height: 114vh;
-        margin-bottom: 0px;
+        padding-bottom: 180px;
         margin-left: 12px;
         padding-top: 0px;
     }
@@ -322,10 +317,10 @@
         font-size: 14px;
     }
 
-    .Created-Socials {
+    /* .Created-Socials {
         bottom: -45%;
         right: 1%;
-    }
+    } */
 
     .Created-Socials h3 {
         letter-spacing: 1px;
