@@ -52,7 +52,6 @@
 
 
 .Created-Socials {
-
     position: absolute;
     bottom: -24%;
     right: 6%;
@@ -273,14 +272,26 @@
     }
 
     .Created-Socials {
-        bottom: 0;
-        right: 1%;
+        position: static;
+        margin-top: 80px;
     }
-
 
     .Created-Socials h3 {
         letter-spacing: 1px;
     }
+
+    .card {
+        position: static;
+        margin: auto auto;
+    }
+
+    .card svg {
+        position: relative;
+        align-items: center;
+    }
+
+
+
 
 
     .bubble9 {
@@ -317,19 +328,12 @@
         font-size: 14px;
     }
 
-    /* .Created-Socials {
-        bottom: -45%;
-        right: 1%;
-    } */
 
     .Created-Socials h3 {
         letter-spacing: 1px;
     }
 
-    .card {
-        right: 14%;
-        top: 74%;
-    }
+
 
     .bubble9 {
         right: -20px;
