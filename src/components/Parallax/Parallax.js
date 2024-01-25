@@ -17,56 +17,58 @@ export default function Parallax() {
         const mobileMediaQuery = window.matchMedia('(max-width: 575px)').matches;
 
 
-        let ctx = gsap.context(() => {
-            gsap.registerPlugin(ScrollTrigger);
-            var tl = gsap.timeline({
-                defaults: { duration: 1 },
-                scrollTrigger: {
-                    trigger: parallaxRef.current,
-                    start: "top top",
-                    end: mobileMediaQuery ? "2300 bottom" : "3800 bottom",
-                    scrub: true,
-                    pin: true,
-                    onUpdate: (self) => {
-                        setBackground(Math.ceil(self.progress * 100 + 20))
+        if (!mobileMediaQuery) {
+            let ctx = gsap.context(() => {
+                gsap.registerPlugin(ScrollTrigger);
+                var tl = gsap.timeline({
+                    defaults: { duration: 1 },
+                    scrollTrigger: {
+                        trigger: parallaxRef.current,
+                        start: "top top",
+                        end: mobileMediaQuery ? "3800 bottom" : "3800 bottom",
+                        scrub: true,
+                        pin: true,
+                        onUpdate: (self) => {
+                            setBackground(Math.ceil(self.progress * 100 + 20))
+                        },
                     },
-                },
+                });
+
+
+                tl.to(
+                    stars.current,
+                    {
+                        top: 0,
+                    },
+                    0.5
+                );
+                tl.to(
+                    sun.current,
+                    {
+                        y: "+=500",
+                        x: "-=480",
+                    },
+                    0
+                );
+                tl.to(
+                    header.current,
+                    {
+
+                        x: "-=24"
+                    },
+                    0
+                );
+                tl.to(
+                    intro.current,
+                    {
+                        // y: "+=350",
+                        x: "-=924"
+                    },
+                    0
+                );
             });
-
-
-            tl.to(
-                stars.current,
-                {
-                    top: 0,
-                },
-                0.5
-            );
-            tl.to(
-                sun.current,
-                {
-                    y: "+=500",
-                    x: "-=480",
-                },
-                0
-            );
-            tl.to(
-                header.current,
-                {
-
-                    x: "-=24"
-                },
-                0
-            );
-            tl.to(
-                intro.current,
-                {
-                    // y: "+=350",
-                    x: "-=924"
-                },
-                0
-            );
-        });
-        return () => ctx.revert();
+            return () => ctx.revert();
+        }
     }, []);
 
     return (
