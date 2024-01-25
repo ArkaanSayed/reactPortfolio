@@ -262,13 +262,18 @@
         width: 100%;
         padding-bottom: 16px;
         text-align: center;
+        font-size: 14px;
+    }
 
+    .Experience-Card h3 {
+        font-size: 14px;
     }
 
     .Experience-Card-Info p {
         padding-top: 22px;
         width: 100%;
         line-height: 28px;
+        font-size: 12px
     }
 
     .Created-Socials {
@@ -289,10 +294,6 @@
         position: relative;
         align-items: center;
     }
-
-
-
-
 
     .bubble9 {
         display: none;
@@ -316,16 +317,16 @@
     }
 
     .Experience-Card h4 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .Experience-Card h3 {
         width: 100%;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .Experience-Card-Info p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
 
