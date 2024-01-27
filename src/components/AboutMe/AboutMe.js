@@ -8,8 +8,7 @@ export default function AboutMe() {
         <div className="About-me">
             <div className="About-me-box">
                 <h1>About Me</h1>
-                <p >I am a Software Engineer, a fitness enthusiast and a forex trader. I started software development when I was in my 2nd year of engineering, and have been growing, leaning and developing Web Apps and Mobile Apps since.
-                    I am also actively involed in mentoring and teaching my juniors and friends in the field of development,mainly App Development and Web development. I feel its important that they get exposed to the development environment, and upgrading their skills while they are still in college.
+                <p >I am software developer, fitness enthusiast, and trader. I embarked on my coding journey during the second year of my engineering studies. My passion lies in continuous learning, both in the realms of technology and business. I thrive on challenges, always approaching them with a proactive mindset. As a software mentor, I am dedicated to imparting knowledge through practical experience, guiding aspiring developers with a curated roadmap. Over the years, I have served as a valuable resource person for various workshops, specializing in web development and app development.
                 </p>
             </div>
             <div className='About-me-pic'>
