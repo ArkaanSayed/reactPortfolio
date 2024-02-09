@@ -125,7 +125,7 @@ body {
     }
 
     .header h1 {
-        font-size: 32px;
+        font-size: 36px;
         letter-spacing: 2px;
         text-align: center;
     }
@@ -143,8 +143,8 @@ body {
         left: 930px;
         bottom: 260px;
         text-align: center;
-        font-size: 24px;
-        line-height: 40px;
+        font-size: 20px;
+        line-height: 36px;
         letter-spacing: 2.6px;
         font-family: 'Comfortaa', sans-serif;
         font-weight: bold;
